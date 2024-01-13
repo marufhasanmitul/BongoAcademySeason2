@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayOut"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        >
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:icon="@drawable/baseline_home_24"
+            />
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/share"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Share"
+            android:icon="@drawable/baseline_share_24"
+            />
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Setting"
+            android:icon="@drawable/baseline_settings_24"
+            />
+    </com.google.android.material.tabs.TabLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#35000000"
+        />
+
+
+
+
+</LinearLayout>
